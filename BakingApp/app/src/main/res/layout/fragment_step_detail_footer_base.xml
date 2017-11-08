@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/step_padding">
+
+    <Button
+        android:id="@+id/Bt_PreviousStep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_previous_step"
+        android:textColor="@color/primary_text"
+        android:textSize="@dimen/textSize_Medium"
+        android:layout_alignParentLeft="true"/>
+
+    <Button
+        android:id="@+id/Bt_NextStep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_next_step"
+        android:textColor="@color/primary_text"
+        android:textSize="@dimen/textSize_Medium"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Baking App</string>
+
+    <!-- status messages !-->
+    <string name="status_error_load_json">Error while to load data.</string>
+    <string name="status_not_found_recipes">Not found recipes.</string>
+    <string name="status_error_read_data_recipes">Error at data reading.</string>
+
+    <string name="ingredients_title">INGREDIENTS</string>
+
+    <string name="steplist_title">STEPS</string>
+    <string name="text_previous_step"> &#160; &lt; Previous Step</string>
+    <string name="text_next_step">Next Step &gt; &#160;</string>
+
+    <string name="status_no_video_avaliable">This step has no instruction video.</string>
+    <string name="status_error_load_video">occurred error during the video loading.</string>
+    <string name="status_no_internet_connection">No Internet connection. Check it.</string>
+
+    <string name="widget_button_other_recipe">Other Recipe</string>
+
+    <string name="button_try_again">Try again</string>
+</resources>
